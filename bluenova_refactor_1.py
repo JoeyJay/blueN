@@ -14,10 +14,10 @@ for i in range(len(colours)-1, -1, -1):
 def reverse(collection):
     start = len(collection) - 1
     b = 0
-    while b < a:
+    while b < start:
         collection[b], collection[start] = collection[start], collection[b]
         b += 1
-        a -= 1
+        start -= 1
 
 
 def print_collection(collection):
