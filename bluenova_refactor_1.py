@@ -24,8 +24,8 @@ def print_collection(collection):
     print(collection)
 
 
-#reverse(colours)
-#print_collection(colours)
+reverse(colours)
+print_collection(colours)
 #   END OF TASK 1
 '''
 #   ugly
@@ -33,12 +33,12 @@ for i in range(len(colours)):
     print(i, colours[i])
 '''
 
-'''
+
 for index, colour in enumerate(colours):
     print(index, colour)
     
 #   END OF TASK 2
-'''
+
 '''
 #   ugly
 min_length = min(len(colours), len(fruits))
@@ -48,7 +48,7 @@ for i in range(min_length):
 
 '''
 
-'''
+
 def get_min_length(collection1, collection2):
     return min(len(collection1), len(collection2))
 
@@ -64,7 +64,7 @@ _min_length = get_min_length(colours, fruits)
 _print_collection(colours, fruits, _min_length)
 
 #   END OF TASK 3
-'''
+
 
 
 def evaluate_vars(a, b, c, d, f, g):
